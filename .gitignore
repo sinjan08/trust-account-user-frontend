@@ -1,0 +1,33 @@
+# dependencies
+node_modules/
+*.log
+*.zip
+
+# environment variables
+# .env
+# .env.*.local
+
+# production build
+dist/
+build/
+
+# local Vercel settings (not needed in repo)
+.vercel/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# system files
+.DS_Store
+Thumbs.db
+
+# npm/yarn/pm metadata
+*.tgz
+.pnpm-debug.log
+yarn.lock
+pnpm-lock.yaml
+
+# Optional: OS generated files
+*.swp
+*.swo
